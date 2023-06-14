@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node build/server.js",
+    "build": "rm -rf build/ && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
